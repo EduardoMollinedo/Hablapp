@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".main_login">         </activity>
+        <activity android:name=".mail_login">         </activity>
+        <activity android:name=".hp_register">        </activity>
+        <activity android:name=".hp_main">            </activity>
+
     </application>
 
 </manifest>

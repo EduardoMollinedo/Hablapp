@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:background="@color/colorApp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:padding="20dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color2"
+            android:text="INGRESA"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:padding="12px"
+            android:onClick="btnIngresar"/>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color4"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:padding="12px"
+            android:text="REGISTRATE"
+            android:onClick="btnRegistrar"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
